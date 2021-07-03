@@ -1,0 +1,41 @@
+* {
+  background-color: black;
+  color: whitesmoke;
+}
+
+header, main, footer, span {
+  background-color: black;
+  font-size: 50px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.iconify {
+  width: 50px;
+  height: 50px;
+}
+
+/* Formulário de Login */
+.login-box {
+  text-align: center;
+}
+
+.form-floating:focus-within {
+  z-index: 2;
+}
+
+/* Botões da tela princilal do Dashboard */
+.button-dashboard:hover {
+  border-style: outset;
+  border-width: 1px;
+  border-color: grey;
+}
+
+/* Dropdown Menu */
+.nav div, .nav input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked ~ .opcoes {
+  display: block;
+}
